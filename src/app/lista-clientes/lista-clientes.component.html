@@ -1,0 +1,8 @@
+<div class="container">
+    <h2>Lista de Clientes</h2>
+    <ul class="list-group">
+        <li *ngFor="let cliente of clientes" class="list-group-item">
+            {{ cliente.nombre }} - {{ cliente.correo_electronico }} - {{ cliente.telefono }}
+        </li>
+    </ul>
+</div>
