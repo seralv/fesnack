@@ -7,7 +7,7 @@ import { Cliente, Empleado, Plato, Pedido } from './models'; // Importa las inte
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'http://127.0.0.1:8000/snackapi/'; // URL de API Django
+  private apiUrl = 'http://127.0.0.1:8000/'; // URL de API Django
 
   constructor(private http: HttpClient) { }
 
